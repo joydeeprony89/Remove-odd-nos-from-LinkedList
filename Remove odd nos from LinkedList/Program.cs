@@ -45,7 +45,6 @@ namespace Remove_odd_nos_from_LinkedList
                     temp.next = temp.next.next;
                 else temp = temp.next;
             }
-
             return head;
         }
     }
